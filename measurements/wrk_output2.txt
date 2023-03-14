@@ -1,0 +1,1 @@
+["Running 30s test @ http://ec2-54-146-89-44.compute-1.amazonaws.com:8080", "  4 threads and 5 connections", "  Thread Stats   Avg      Stdev     Max   +/- Stdev", "    Latency     1.60ms  836.53us  16.67ms   93.94%", "    Req/Sec   651.43     63.87   767.00     64.25%", "  77851 requests in 30.02s, 23.28MB read", "Requests/sec:   2593.04", "Transfer/sec:    793.95KB"]
