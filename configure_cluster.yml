@@ -115,11 +115,6 @@
         name: join_cmd_holder
         cmd: "{{ join_cmd.stdout }}"
 
-    # - name: Add join cmd to hostvars so it's accessible by the worker
-    #   ansible.builtin.set_fact:
-    #     cmd: "{{ join_cmd.stdout }}"
-    #     delegate_to: join_cmd_holder
-
 - hosts: worker
   tasks:
     - name: print join cmd
